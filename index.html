@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                CODIE - NEWS
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('ipl')">IPL</li>
+                    <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                    <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                    <li class="hover-link nav-item" id="Education" onclick="onNavItemClick('Education')">Education</li>
+                    <li class="hover-link nav-item" id="Lifestyle" onclick="onNavItemClick('Lifestyle')">Lifestyle</li>
+                    <li class="hover-link nav-item" id="Astrology" onclick="onNavItemClick('Astrology')">Astrology</li>
+                    <li class="hover-link nav-item" id="Latest News" onclick="onNavItemClick('Latest News')">Latest News</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+                <button id="search-button" class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+<div class="dummy">
+    <div class="footer">
+        <div class="contain">
+        <div class="col">
+          <h1>Codie News</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+
+        <div class="col social">
+          <h1>Social</h1>
+          <ul>
+            <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+            <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+            <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+          </ul>
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      </div>
+</div>
+</body>
+</html> 
