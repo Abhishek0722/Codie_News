@@ -40,10 +40,5 @@ We welcome contributions! Follow these steps to contribute to CodeNews:
 
 This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-
-- [Mention any third-party libraries, APIs, or tools used in your project]
-- [Give credit to any inspiration or resources]
-
 Explore the world of news effortlessly with CodeNews!
 
